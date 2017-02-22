@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					8BCE820E1E44F86A00F3ED65 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SUSCNEX7US;
 					};
 					8BCE82221E44F86A00F3ED65 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,7 +400,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Single App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.media2code.Single-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Single App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.media2code.Single-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +487,7 @@
 				8BCE82391E44F86A00F3ED65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BCE823A1E44F86A00F3ED65 /* Build configuration list for PBXNativeTarget "Single AppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +496,7 @@
 				8BCE823C1E44F86A00F3ED65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BCE823D1E44F86A00F3ED65 /* Build configuration list for PBXNativeTarget "Single AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +505,7 @@
 				8BCE823F1E44F86A00F3ED65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
